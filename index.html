@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="Satyam Gupta — Full-stack developer, AI/ML enthusiast and cybersecurity practitioner building useful digital experiences.">
+  <meta property="og:title" content="Satyam Gupta — Developer Portfolio">
+  <meta property="og:description" content="Full-stack development • AI/ML • Cybersecurity">
+  <title>Satyam Gupta — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Satyam Gupta home">
+      <span class="brand-mark">SG<span>.</span></span>
+      <span class="brand-copy">SATYAM GUPTA<small>DEVELOPER / BUILDER</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#work">Projects</a>
+      <a class="nav-link" href="#stack">Stack</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="availability" href="#contact"><span class="status-dot"></span> Available for opportunities</a>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow reveal"><span class="eyebrow-line"></span> INDEPENDENT DEVELOPER <span class="eyebrow-dot">✳</span> INDIA</div>
+        <h1 class="hero-title reveal">I build things<br>for the <span class="gradient-text">next internet.</span></h1>
+        <p class="hero-lead reveal">I'm <strong>Satyam Gupta</strong> — a developer exploring the intersection of full-stack engineering, AI and cybersecurity. I turn curious ideas into useful, thoughtful digital products.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><span class="meta-number">03</span><span class="meta-label">CORE DOMAINS</span></div>
+          <span class="meta-divider"></span>
+          <div><span class="meta-number">BUILD</span><span class="meta-label">LEARN. REPEAT.</span></div>
+          <span class="meta-divider"></span>
+          <div><span class="meta-number">∞</span><span class="meta-label">CURIOSITY</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Abstract three-dimensional developer illustration">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-orbit orbit-three"></div>
+        <div class="visual-glow"></div>
+        <div class="floating-chip chip-top"><span class="chip-dot cyan"></span> AI / ML</div>
+        <div class="floating-chip chip-left"><span class="chip-symbol">&lt;/&gt;</span> FULL STACK</div>
+        <div class="floating-chip chip-right"><span class="chip-dot violet"></span> SECURITY</div>
+        <div class="core-scene" id="coreScene">
+          <div class="core-ring ring-a"></div>
+          <div class="core-ring ring-b"></div>
+          <div class="core-ring ring-c"></div>
+          <div class="core-cube">
+            <div class="cube-face cube-front"><span>SG</span><small>DEV MODE</small></div>
+            <div class="cube-face cube-back"></div>
+            <div class="cube-face cube-right"></div>
+            <div class="cube-face cube-left"></div>
+            <div class="cube-face cube-top"></div>
+            <div class="cube-face cube-bottom"></div>
+          </div>
+          <span class="orbit-node node-a"></span><span class="orbit-node node-b"></span><span class="orbit-node node-c"></span>
+        </div>
+        <div class="visual-caption"><span class="caption-pulse"></span> CURRENTLY IN BUILD MODE <span class="caption-index">01 / 04</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-strip">
+      <div class="strip-track" aria-label="Areas of interest">
+        <span>FULL-STACK DEVELOPMENT</span><i>✳</i><span>ARTIFICIAL INTELLIGENCE</span><i>✳</i><span>CYBERSECURITY</span><i>✳</i><span>OPEN SOURCE</span><i>✳</i><span>CLOUD & AUTOMATION</span><i>✳</i>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="about">
+      <div class="section-heading reveal">
+        <span class="section-kicker">01 — A LITTLE ABOUT ME</span>
+        <h2>Curiosity is my<br><span class="muted-heading">favourite framework.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">I like understanding how things work — from the interface a user touches to the systems running behind it.</p>
+          <p>My focus spans web development, AI/ML experiments and cybersecurity. I enjoy building practical projects, learning by shipping, contributing to communities and sharing what I discover along the way.</p>
+          <p>This portfolio is a snapshot of that journey. The goal is simple: build with intention, stay curious, and make technology useful.</p>
+          <a class="text-link" href="#contact">Have an idea? Let's talk <span>↗</span></a>
+        </div>
+        <div class="principles-grid reveal">
+          <article class="principle-card tilt-card"><span class="principle-index">01</span><div class="principle-icon">⌘</div><h3>Build with purpose</h3><p>Useful experiences, clean implementation and details that feel considered.</p><span class="card-edge"></span></article>
+          <article class="principle-card tilt-card"><span class="principle-index">02</span><div class="principle-icon">◈</div><h3>Think in systems</h3><p>Connect frontend, backend, data, automation and security into one picture.</p><span class="card-edge"></span></article>
+          <article class="principle-card tilt-card"><span class="principle-index">03</span><div class="principle-icon">↗</div><h3>Keep learning</h3><p>Experiment, document the lessons and improve with every iteration.</p><span class="card-edge"></span></article>
+          <article class="principle-card principle-feature tilt-card"><span class="principle-index">04</span><div class="principle-icon">✳</div><h3>Share the signal</h3><p>Open source, community learning and making complex ideas more approachable.</p><span class="card-edge"></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-shell">
+        <div class="section-heading work-heading reveal">
+          <div><span class="section-kicker">02 — SELECTED PROJECTS</span><h2>Made real, not<br><span class="muted-heading">left in a tab.</span></h2></div>
+          <p class="heading-aside">A few directions I'm exploring across AI, web engineering, automation and connected devices.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button active" data-filter="all" aria-pressed="true">All work <span>04</span></button>
+          <button class="filter-button" data-filter="ai" aria-pressed="false">AI & ML</button>
+          <button class="filter-button" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-button" data-filter="tools" aria-pressed="false">Tools & IoT</button>
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card project-wide tilt-card reveal" data-category="ai">
+            <div class="project-art art-ai"><div class="art-grid"></div><div class="ai-orb"><span></span><span></span><span></span></div><div class="art-label">GENERATIVE SYSTEMS / 001</div><div class="art-code">0101<br>1010<br>0110</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">AI PRODUCT</span><span class="project-number">01 / 04</span></div><h3>AI SaaS Studio</h3><p>A multi-tool AI product concept for generating images, articles, titles and blog content, with resume analysis as a practical utility.</p><div class="tag-row"><span>AI/ML</span><span>JavaScript</span><span>APIs</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Replace with AI SaaS project repository">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card tilt-card reveal" data-category="tools">
+            <div class="project-art art-iot"><div class="iot-house"><div class="house-roof"></div><div class="house-body"><span class="window"></span><span class="window"></span><span class="door"></span></div></div><div class="iot-wave wave-1"></div><div class="iot-wave wave-2"></div><div class="art-label">CONNECTED LIVING / 002</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">IOT / EMBEDDED</span><span class="project-number">02 / 04</span></div><h3>ESP32 Smart Home</h3><p>Wi-Fi connected home automation with relay control, embedded C++ and a lightweight web dashboard.</p><div class="tag-row"><span>ESP32</span><span>C++</span><span>IoT</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Replace with Smart Home project repository">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card tilt-card reveal" data-category="tools">
+            <div class="project-art art-scraper"><div class="terminal-window"><div class="terminal-bar"><i></i><i></i><i></i><span>job_finder.py</span></div><div class="terminal-line"><b>$</b> python job_finder.py</div><div class="terminal-line dim">Scanning public listings...</div><div class="terminal-line success">✓ Results parsed</div><div class="terminal-line"><span class="terminal-block"></span><span class="terminal-block short"></span></div></div><div class="art-label">AUTOMATION / 003</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">DEVELOPER TOOL</span><span class="project-number">03 / 04</span></div><h3>Government Job Tracker</h3><p>A Python desktop utility using Tkinter, Requests and BeautifulSoup to collect and display public job listings.</p><div class="tag-row"><span>Python</span><span>Tkinter</span><span>Web scraping</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="Replace with job tracker project repository">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card project-wide tilt-card reveal" data-category="web">
+            <div class="project-art art-web3"><div class="web3-network"><span class="net-node n1"></span><span class="net-node n2"></span><span class="net-node n3"></span><span class="net-node n4"></span><span class="net-node n5"></span><svg viewBox="0 0 500 260" role="img" aria-label="Abstract connected network"><path d="M55 130 L160 55 L255 130 L365 55 L450 145 L350 220 L255 130 L150 210 L55 130 M160 55 L150 210 M365 55 L350 220"/></svg><div class="network-core">ELINK</div></div><div class="art-label">SOCIAL TRUST PROTOCOL / 004</div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">WEB3 / PROTOCOL</span><span class="project-number">04 / 04</span></div><h3>ELINK — Social Trust Layer</h3><p>A Web3 concept connecting social identity, trust graphs, AI growth agents and reward mechanisms through a developer-friendly SDK.</p><div class="tag-row"><span>Web3</span><span>Identity</span><span>SDK</span></div><a class="project-link" href="https://github.com/The-AI-gUi" target="_blank" rel="noopener noreferrer">Explore organization <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-note"><span>✳</span> Replace the example repository links with the exact URLs for each project before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="stack">
+      <div class="section-heading reveal"><span class="section-kicker">03 — TOOLS OF THE TRADE</span><h2>My toolkit is a<br><span class="muted-heading">work in progress.</span></h2><p class="section-description">Technologies I use, explore and combine to bring ideas to life.</p></div>
+      <div class="stack-layout">
+        <div class="stack-card stack-main tilt-card reveal"><div class="stack-card-head"><span class="stack-symbol">⌘</span><span class="stack-label">01 / ENGINEERING</span></div><h3>Full-stack development</h3><p>Building interfaces and the systems that power them.</p><div class="tech-cloud"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>MongoDB</span><span>Git</span><span>REST APIs</span></div><div class="stack-decoration">DEV</div></div>
+        <div class="stack-card tilt-card reveal"><div class="stack-card-head"><span class="stack-symbol purple">✳</span><span class="stack-label">02 / INTELLIGENCE</span></div><h3>AI & machine learning</h3><p>Exploring models, integrations and useful AI-powered workflows.</p><div class="tech-cloud"><span>Python</span><span>AI/ML fundamentals</span><span>LLM APIs</span><span>Automation</span></div></div>
+        <div class="stack-card tilt-card reveal"><div class="stack-card-head"><span class="stack-symbol orange">◈</span><span class="stack-label">03 / DEFENCE</span></div><h3>Cybersecurity</h3><p>Learning security principles, investigation workflows and defensive thinking.</p><div class="tech-cloud"><span>Linux</span><span>Networking</span><span>Digital forensics</span><span>Security basics</span></div></div>
+        <div class="stack-card stack-cloud tilt-card reveal"><div class="stack-card-head"><span class="stack-symbol blue">☁</span><span class="stack-label">04 / INFRASTRUCTURE</span></div><h3>Cloud & delivery</h3><p>Developing practical cloud knowledge through labs and hands-on projects.</p><div class="tech-cloud"><span>Google Cloud</span><span>Azure fundamentals</span><span>Docker basics</span><span>CI/CD concepts</span></div><div class="cloud-rings"></div></div>
+      </div>
+      <div class="learning-banner reveal"><span class="learning-icon">↗</span><div><strong>Always learning. Always shipping.</strong><p>Courses and certificates matter most when they turn into practical skills and real projects.</p></div><span class="learning-mark">OPEN TO GROWTH</span></div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="section-shell journey-grid">
+        <div class="section-heading reveal"><span class="section-kicker">04 — THE JOURNEY</span><h2>Progress over<br><span class="muted-heading">perfect timing.</span></h2><p class="section-description">A growing path through software, security and community-led learning.</p></div>
+        <div class="journey-list">
+          <article class="journey-item reveal"><span class="journey-dot"></span><div class="journey-time">LEARNING / BUILDING</div><h3>AI, full-stack & cloud projects</h3><p>Developing portfolio projects and expanding practical engineering skills through hands-on experimentation.</p></article>
+          <article class="journey-item reveal"><span class="journey-dot"></span><div class="journey-time">CYBERSECURITY</div><h3>Forensics & security learning</h3><p>Building familiarity with cybersecurity concepts and investigation-oriented workflows through learning and internship experience.</p></article>
+          <article class="journey-item reveal"><span class="journey-dot"></span><div class="journey-time">OPEN SOURCE / COMMUNITY</div><h3>Learning in public</h3><p>Participating in open-source events, cloud learning programs and developer communities.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-orb orb-left"></div><div class="contact-orb orb-right"></div>
+        <span class="section-kicker">05 — YOUR MOVE</span>
+        <h2>Have a good problem?<br><span class="gradient-text">Let's build something.</span></h2>
+        <p>Open to internships, collaborations, freelance projects and conversations with people who like building useful things.</p>
+        <div class="contact-actions"><a class="button button-primary" href="mailto:theaiguy.team@gmail.com?subject=Let's%20build%20something">Start a conversation <span>↗</span></a><a class="button button-ghost" href="https://github.com/invisiblehqck" target="_blank" rel="noopener noreferrer">GitHub profile <span>↗</span></a></div>
+        <div class="contact-links"><a href="mailto:theaiguy.team@gmail.com">theaiguy.team@gmail.com</a><span></span><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a><span></span><a href="https://github.com/invisiblehqck" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell"><a class="brand footer-brand" href="#home"><span class="brand-mark">SG<span>.</span></span></a><p>Designed with curiosity. Built with intent.</p><span>© <span id="year"></span> Satyam Gupta</span><a class="back-top" href="#home" aria-label="Back to top">↑</a></footer>
+</body>
+</html>
